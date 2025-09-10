@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tickets Changelog</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            max-width: 800px; 
+            margin: 2rem auto; 
+            padding: 2rem;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1, h2, h3 { color: #2c3e50; }
+        h2 { border-bottom: 2px solid #ecf0f1; padding-bottom: 0.5rem; }
+        code { background: #f8f9fa; padding: 0.2rem 0.4rem; border-radius: 3px; }
+        pre { background: #f8f9fa; padding: 1rem; border-radius: 5px; overflow-x: auto; }
+        blockquote { border-left: 4px solid #3498db; margin: 0; padding-left: 1rem; color: #555; }
+        a { color: #3498db; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+<h1>Tickets App - Changelog</h1>
+<h2>[Current] - Sep 15, 2025 (16)</h2>
+<h3>Added</h3>
+<ul>
+<li>settings button</li>
+<li>bug reports</li>
+<li>subscriptions (includes new payments backend powered by stripe)</li>
+<li>change log </li>
+<li>feature voting (no limit on submissions so just be genetal)</li>
+<li>demo / tutorials</li>
+<li>when searching contacts will now appear at the bottom of your search</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>completed tickets now are hidden</li>
+<li>account management is inside settings button</li>
+<li>filter button is now an icon</li>
+<li>edit buttons are bigger and text not icons</li>
+<li>edit buttons now swap to cancel button so you can only save 
+with bottom button or by leaving</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>fixed desktop hidden close button</li>
+</ul>
+<h3>Removed</h3>
+<ul>
+<li>calendar </li>
+<li>dedicated contact view</li>
+</ul>
+<h3>could not reproduce</h3>
+<ul>
+<li>input issues with ticket stub 
+(please submit a bug if its still happening)</li>
+</ul>
+<h3>Technical</h3>
+<ul>
+<li>cleaned up code base a lot</li>
+<li>moved over to a new form system</li>
+<li>migrated to a new backend (this is what the app runs on)</li>
+</ul>
+<h2>[f7fee71] - Aug 30, 2025 (19)</h2>
+<p>added tracking to the app
+so we can better understand how to build the app
+with less time wasted</p>
+<h2>[f79b88d] - Aug 11, 2025 (3)</h2>
+<p>added linking to drawers and contacts,
+added call text and email links, added total cost display</p>
+<h2>[64f1e98] - Aug 8, 2025 (1)</h2>
+<p>hooked up deletions for tickets notes and contacts
+improved save buttons</p>
+<ul>
+<li>auto saves when you quit </li>
+<li>quick action button acts as a save
+fixed ticket stub input problem (couldn&#39;t add your own ids)
+contacts now update</li>
+</ul>
+<h2>[c4c1eda] - Aug 7, 2025 (7)</h2>
+<p>released app in the wild for my one set of users
+got caching working so we don&#39;t hit the db constantly
+everything seems to be working fine</p>
+<h2>[e9136c8] - Jul 31, 2025 (0)</h2>
+<p>initial project start</p>
+
+</body>
+</html>
