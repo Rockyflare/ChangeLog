@@ -4,36 +4,46 @@
 
 ### Added
 - settings button
+    - subscriptions 
+    - change log 
+    - feed back form
 - bug reports
-- subscriptions (includes new payments backend powered by stripe)
-- change log 
-- feature voting (no limit on submissions so just be genetal)
 - demo / tutorials
-- when searching contacts will now appear at the bottom of your search
+- added a actions menu near ticket close
+    - delete button is moved here
+    - copy function for tickets
+        - allows you to delete the previous ticket 
+        (this is for needing to change the contact/kinda fun solution for ui/ux problem)
+    - print function
+        - lets you choose what to show: notes, description, quote, price, time worked on (created date - now)
+- added tutorials
 
 ### Changed
-- completed tickets now are hidden
+- completed tickets now are hidden by default
 - account management is inside settings button
 - filter button is now an icon
-- edit buttons are bigger and text not icons
-- edit buttons now swap to cancel button so you can only save 
-with bottom button or by leaving
+- filter total is shown
+- edit buttons are bigger and replaced with text where needed
+- made contact buttons more prominent
+- added a bit of status colouring in ticket list and the header of the ticket
+- moved create button to bottom to fill bottom to fit rest of ui
+- added more contrast as i noticed inputs were hard to see
+- removed double scroll in notes
 
 ### Fixed
+- desktop view is a lot better
 - fixed desktop hidden close button
+- tickets overflow
+- contacts overflow
+- can now add special characters to ticket ids/stubs
 
 ### Removed
 - calendar 
-- dedicated contact view 
-
-### could not reproduce 
-- input issues with ticket stub 
-(please submit a bug if its still happening)
+- dedicated contact list view
 
 ### Technical
 - cleaned up code base a lot
 - moved over to a new form system
-- migrated to a new backend (this is what the app runs on)
 
 ## [f7fee71] - Aug 30, 2025 (19)
 added tracking to the app
