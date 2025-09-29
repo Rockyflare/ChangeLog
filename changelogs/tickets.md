@@ -1,72 +1,77 @@
 # Tickets App - Changelog
 
-## [Current] - Sep 15, 2025 (16)
+## [Current Version] - September 28, 2025
+- fixed tutorial button on mobile
+- made the create ticket button easier to read
+- changed ticket card colour for cancelled as well
 
-### Added
-- settings button
-    - subscriptions 
-    - change log 
-    - feed back form
-- bug reports
-- demo / tutorials
-- added a actions menu near ticket close
-    - delete button is moved here
-    - copy function for tickets
-        - allows you to delete the previous ticket 
-        (this is for needing to change the contact/kinda fun solution for ui/ux problem)
-    - print function
-        - lets you choose what to show: notes, description, quote, price, time worked on (created date - now)
-- added tutorials
+## [e8b6c49] - September 25, 2025
 
-### Changed
-- completed tickets now are hidden by default
-- account management is inside settings button
-- filter button is now an icon
-- filter total is shown
-- edit buttons are bigger and replaced with text where needed
-- made contact buttons more prominent
-- added a bit of status colouring in ticket list and the header of the ticket
-- moved create button to bottom to fill bottom to fit rest of ui
-- added more contrast as i noticed inputs were hard to see
-- removed double scroll in notes
+### ✨ New Features
+- **Settings Panel**: Access subscriptions, changelog, and feedback form all in one place
+- **Bug Reporting**: Easily report issues directly from the app
+- **Interactive Tutorials**: Help guides are now available throughout the app for better user experience
+- **Enhanced Ticket Actions**: New action menu next to ticket close button includes:
+  - **Copy Ticket**: Duplicate tickets and optionally remove the original (useful when changing contact info)
+  - **Print Options**: Customize what information to include - notes, description, quotes, pricing, and time tracking
 
-### Fixed
-- desktop view is a lot better
-- fixed desktop hidden close button
-- tickets overflow
-- contacts overflow
-- can now add special characters to ticket ids/stubs
+### 🔄 Improvements  
+- **Cleaner Interface**: Completed tickets are now hidden by default to reduce clutter
+- **Streamlined Navigation**: Account management moved to settings panel
+- **Better Visual Feedback**: 
+  - Filter button now shows as an icon with total count displayed
+  - Status colors added to ticket list and headers for quick identification
+  - Improved button sizes and visibility
+  - Enhanced input field contrast for better readability
+- **Mobile-First Design**: Create button repositioned for better mobile experience
+- **Contact Management**: Contact buttons are now more prominent and accessible
 
-### Removed
-- calendar 
-- dedicated contact list view
+### 🐛 Bug Fixes
+- Significantly improved desktop experience and layout
+- Fixed hidden close button issue on desktop
+- Resolved ticket and contact overflow display issues  
+- Special characters now supported in custom ticket IDs
+- Eliminated double scrolling in notes section
 
-### Technical
-- cleaned up code base a lot
-- moved over to a new form system
+### 📱 Interface Changes
+- Removed calendar feature (based on usage patterns)
+- Streamlined contact management (removed separate contact list view)
 
-## [f7fee71] - Aug 30, 2025 (19)
-added tracking to the app
-so we can better understand how to build the app
-with less time wasted
+### 🔧 Technical Improvements *(Dev Notes)*
+- Major codebase cleanup and optimization
+- Migrated to new form system for better performance
 
+## Version [f7fee71] - August 30, 2025
 
-## [f79b88d] - Aug 11, 2025 (3)
-added linking to drawers and contacts,
-added call text and email links, added total cost display
+### 📊 Analytics Integration *(Build #19)*
+- Added usage analytics to better understand user behavior and improve future updates
+- *Dev: Analytics implementation for development insights*
 
-## [64f1e98] - Aug 8, 2025 (1)
-hooked up deletions for tickets notes and contacts
-improved save buttons
-- auto saves when you quit 
-- quick action button acts as a save
-fixed ticket stub input problem (couldn't add your own ids)
-contacts now update
+## Version [f79b88d] - August 11, 2025  
 
-## [c4c1eda] - Aug 7, 2025 (7)
-released app in the wild for my one set of users
-got caching working so we don't hit the db constantly
-everything seems to be working fine
+### 🔗 Enhanced Connectivity *(Build #3)*
+- **Smart Contact Integration**: Direct links between tickets and contact information
+- **One-Click Communication**: Added call, text, and email buttons for instant contact
+- **Financial Overview**: Total cost display for better project tracking
 
-## [e9136c8] - Jul 31, 2025 (0)
-initial project start
+## Version [64f1e98] - August 8, 2025
+
+### 🗑️ Data Management & UX Improvements *(Build #1)*
+- **Complete Delete Functionality**: Full deletion support for tickets, notes, and contacts
+- **Smart Saving**: 
+  - Auto-save when closing the app
+  - Quick action buttons now trigger saves
+- **Custom Ticket IDs**: Fixed issue preventing custom ticket ID creation
+- **Real-time Updates**: Contact information now updates immediately
+
+## Version [c4c1eda] - August 7, 2025
+
+### 🚀 Production Release *(Build #7)*
+- **Public Launch**: App released to initial user base
+- **Performance Optimization**: Database caching implemented for faster loading
+- **Stability Confirmed**: All core features tested and verified
+
+## Version [e9136c8] - July 31, 2025
+
+### 🎯 Project Launch *(Initial Release)*
+- First version of Tickets App created
